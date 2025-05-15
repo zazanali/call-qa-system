@@ -3,7 +3,9 @@
 from langchain_core.prompts import PromptTemplate
 
 PREDEFINED_INTENTS = [
-    "Greetings", "Playmusic", "AddtoPlaylist", "RateBook"
+    "Greetings", "Playmusic", "AddtoPlaylist", "RateBook", "Features", "CustomerVerification", "Hospitalization", 
+    "AccidentalOPD", "OnlineDoctor", "DoctorCharges", "ClosingGreeting", "Helpful", "Introduction", "Consent", 
+    "DoctorHours", "DoctorDays", "AgeConfirmation", "ClaimProcess", "BeneficiaryName", "DateTime"
 ]
 
 # ── Bulk Intent Summary ─────────────────────────────────────────

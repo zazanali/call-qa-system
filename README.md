@@ -21,13 +21,13 @@ An intelligent, multilingual call quality assurance (QA) tool that transcribes, 
 
 ```
 ├── app/
-│   ├── main_app.py          # Streamlit frontend
-│   ├── processor.py         # Core processing logic
-│   ├── prompts.py           # Prompt templates and intent definitions
-│   ├── utils.py             # Utility functions (audio conversion, model loading)
-├── requirements.txt         # Dependencies
-├── README.md                # You're here
-├── .env                     # where you put api key
+│   ├── main_app.py              # Streamlit frontend
+│   ├── processor.py             # Core processing logic
+│   ├── prompts.py               # Prompt templates and intent definitions
+│   ├── utils.py                 # Utility functions (audio conversion, model loading)
+│   ├── requirements.txt         # Dependencies
+│   ├── README.md                # You're here
+│   ├── .env                     # where you put api key
 ```
 
 ---
@@ -88,10 +88,7 @@ streamlit run app/main_app.py
 ## ✅ Supported Intents (Predefined)
 
 ```text
-Greetings, Playmusic, AddtoPlaylist, RateBook, Features, CustomerVerification,
-Hospitalization, AccidentalOPD, OnlineDoctor, DoctorCharges, ClosingGreeting,
-Helpful, Introduction, Consent, DoctorHours, DoctorDays, AgeConfirmation,
-ClaimProcess, BeneficiaryName, DateTime
+Greetings, Playmusic, AddtoPlaylist, RateBook,
 ```
 
 You can also define custom intents during runtime input.
@@ -152,5 +149,6 @@ PRs and suggestions are welcome! For major changes, please open an issue first t
 For questions or feedback, feel free to reach out via [LinkedIn](https://www.linkedin.com/zazanali) or 
 email (alizazan3@gmail.com).
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
+
 Developed by Zazan Ali – feel free to reach out for collaboration or questions!

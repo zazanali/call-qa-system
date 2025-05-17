@@ -37,7 +37,7 @@ An intelligent, multilingual call quality assurance (QA) tool that transcribes, 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/call-qa-system.git
+git clone https://github.com/zazanali/call-qa-system.git
 cd call-qa-system
 ```
 
